@@ -3,23 +3,23 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>A simple React app.....</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link-active" href="/">
+          Home
         </a>
-        <form action="../../post" method="post" className="form">
-          <button type="submit">Connected?</button>
-        </form>
-      </header>
-    </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/eventi">
+          Eventi
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contatti">
+          Contatti
+        </a>
+      </li>
+    </ul>
   );
 }
 
