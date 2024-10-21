@@ -29,15 +29,13 @@ a:hover {
 
 .container {
   position: relative;
-  display: block;
-  width: 100%;
+  display: inline-block;
   text-align: center;
 }
 
 #immagine {
-  display: inline-block;
+  width: 100%;
   vertical-align: middle;
-  height: auto;
 }
 #TestoImmagine {
   display: inline-block;
