@@ -5,6 +5,9 @@
   text-align: center;
   width: 100%;
 }
+.mySlides {
+  margin-top: 100px;
+}
 .mySlides > img {
   width: 100%;
 }

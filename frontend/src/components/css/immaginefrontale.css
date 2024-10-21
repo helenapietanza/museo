@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+#immagine {
+  width: 100%;
+  vertical-align: middle;
+}
+#TestoImmagine {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #442c18;
+  color: #ffe7df;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
