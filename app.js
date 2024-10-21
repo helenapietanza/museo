@@ -1,11 +1,6 @@
 import express from "express";
 const app = express();
 
-app.post("/post", (req, res) => {
-  console.log("Connected to React");
-  res.redirect("/");
-});
-
 app.get("/home", (req, res) => {
   res.send("hello world");
 });

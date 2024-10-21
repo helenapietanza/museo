@@ -1,18 +1,18 @@
 function Navtop() {
   return (
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link-active" href="/home">
+    <ul className="nav justify-content-center">
+      <li className="nav-item">
+        <a className="nav-link-active" href="/home">
           Home
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/eventi">
+      <li className="nav-item">
+        <a className="nav-link" href="/eventi">
           Eventi
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contatti">
+      <li className="nav-item">
+        <a className="nav-link" href="/contatti">
           Contatti
         </a>
       </li>
