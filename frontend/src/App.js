@@ -1,4 +1,5 @@
 import "./App.css";
+import "./components/slideshow.css";
 import Navtop from "./components/nav.jsx";
 import FrontImage from "./components/frontimage.jsx";
 import Slideshow from "./components/slideshow.jsx";
